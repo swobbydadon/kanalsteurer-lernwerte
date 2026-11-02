@@ -1,10 +1,10 @@
 {
  "format": 1,
- "stand": "2026-11-02T20:07:21.571Z",
+ "stand": "2026-11-02T23:09:50.689Z",
  "tage": 21,
  "anzahl": {
-  "abteilungen": 57,
-  "linien": 705
+  "abteilungen": 77,
+  "linien": 778
  },
  "versatz": {
   "KIEL_FT": {
@@ -12,15 +12,15 @@
     "med": 0,
     "p25": 0,
     "p75": 0,
-    "n": 32
+    "n": 40
    },
    "zls": null
   },
   "W_GN": {
    "med": 132,
    "p25": 132,
-   "p75": 132,
-   "n": 1
+   "p75": 133,
+   "n": 4
   },
   "E_DUE": {
    "med": 151,
@@ -31,10 +31,10 @@
  },
  "abschnitte": {
   "FT_TO_HA": {
-   "med": 1.1,
-   "p25": 1.06,
-   "p75": 1.56,
-   "n": 23,
+   "med": 1.12,
+   "p25": 1.05,
+   "p75": 1.53,
+   "n": 28,
    "byHour": {
     "6-12": {
      "med": 1.1,
@@ -49,10 +49,10 @@
      "n": 4
     },
     "18-24": {
-     "med": 1.14,
-     "p25": 1.06,
-     "p75": 1.48,
-     "n": 8
+     "med": 1.17,
+     "p25": 1.03,
+     "p75": 1.22,
+     "n": 13
     },
     "12-18": {
      "med": 1.05,
@@ -77,10 +77,10 @@
    }
   },
   "GN_TO_SCHUELP": {
-   "med": 2.35,
-   "p25": 2.24,
-   "p75": 2.56,
-   "n": 30,
+   "med": 2.33,
+   "p25": 2.2,
+   "p75": 2.55,
+   "n": 32,
    "byHour": {
     "6-12": {
      "med": 2.33,
@@ -101,18 +101,18 @@
      "n": 6
     },
     "18-24": {
-     "med": 2.35,
-     "p25": 2.2,
+     "med": 2.14,
+     "p25": 2.11,
      "p75": 2.35,
-     "n": 3
+     "n": 5
     }
    }
   },
   "E1_TO_BA": {
-   "med": 4.08,
-   "p25": 3.72,
-   "p75": 4.93,
-   "n": 13,
+   "med": 4.04,
+   "p25": 3.65,
+   "p75": 4.85,
+   "n": 14,
    "byHour": {
     "6-12": {
      "med": 6.55,
@@ -127,10 +127,10 @@
      "n": 3
     },
     "12-18": {
-     "med": 3.68,
-     "p25": 3.59,
-     "p75": 4.03,
-     "n": 4
+     "med": 3.63,
+     "p25": 3.63,
+     "p75": 3.73,
+     "n": 5
     },
     "18-24": {
      "med": 4.33,
@@ -188,45 +188,50 @@
   }
  },
  "ostjobs": {
-  "total": 2,
+  "total": 3,
   "ausBoert": 1,
-  "quote": 0.5
+  "quote": 0.33
  },
  "bunkern": null,
  "zulauf": null,
  "schleuseBrb": {
   "zyklusNeu": {
-   "med": 0.96,
-   "p25": 0.94,
-   "p75": 0.98,
-   "n": 2
+   "med": 1,
+   "p25": 0.96,
+   "p75": 1.19,
+   "n": 3
   },
   "zyklusAlt": null,
   "leer": null,
-  "anlaufElbe": null,
+  "anlaufElbe": {
+   "med": 0.07,
+   "p25": 0.07,
+   "p75": 0.07,
+   "n": 1
+  },
   "anlaufKanal": {
-   "med": 0.04,
-   "p25": 0.03,
-   "p75": 0.05,
-   "n": 2
+   "med": 0.05,
+   "p25": 0.04,
+   "p75": 0.06,
+   "n": 3
   }
  },
  "treffer": {
   "gesamt": {
-   "n": 5,
-   "quote": 0.6
+   "n": 15,
+   "quote": 0.8
   },
   "KIEL": {
-   "n": 2,
-   "imZiel": 2,
+   "n": 10,
+   "imZiel": 10,
    "quote": 1,
    "fehler": {
-    "med": 8,
-    "p25": 8,
+    "med": 7,
+    "p25": 2,
     "p75": 8,
-    "n": 2
+    "n": 10
    },
-   "nichtVorhergesagt": 14
+   "nichtVorhergesagt": 16
   },
   "E": {
    "n": 2,
@@ -241,10 +246,15 @@
    "nichtVorhergesagt": 0
   },
   "WAH": {
-   "n": 0,
-   "imZiel": 0,
-   "quote": null,
-   "fehler": null,
+   "n": 1,
+   "imZiel": 1,
+   "quote": 1,
+   "fehler": {
+    "med": 0,
+    "p25": 0,
+    "p75": 0,
+    "n": 1
+   },
    "nichtVorhergesagt": 1
   },
   "FD": {
@@ -260,11 +270,16 @@
    "nichtVorhergesagt": 1
   },
   "W": {
-   "n": 0,
+   "n": 1,
    "imZiel": 0,
-   "quote": null,
-   "fehler": null,
-   "nichtVorhergesagt": 1
+   "quote": 0,
+   "fehler": {
+    "med": -101,
+    "p25": -101,
+    "p75": -101,
+    "n": 1
+   },
+   "nichtVorhergesagt": 3
   }
  }
 }
