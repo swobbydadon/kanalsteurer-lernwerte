@@ -1,10 +1,10 @@
 {
  "format": 1,
- "stand": "2026-11-03T11:20:13.763Z",
+ "stand": "2026-11-03T11:30:17.923Z",
  "tage": 21,
  "anzahl": {
-  "abteilungen": 149,
-  "linien": 1217
+  "abteilungen": 151,
+  "linien": 1222
  },
  "versatz": {
   "KIEL_FT": {
